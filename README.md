@@ -82,3 +82,8 @@ The admin panel enables:
 
 ### API Gateway
 All microservices are accessed through the API Gateway, which acts as a single entry point to the system. The actual endpoints of the microservices are not exposed directly; instead, all communication is routed through the API Gateway on port 9002.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Note
+The backend and frontend code for this application is private to ensure security and maintain data integrity. Only the deployed application is visible to users.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
