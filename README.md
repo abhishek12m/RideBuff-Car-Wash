@@ -1,7 +1,7 @@
-# RideBuff - A Car washing Management service app
+# RideBuff - A Car Washing Management Service App
 
 ## Live Link
-Experience the app live: [Car Wash App](https://ridebuff-car-wash.netlify.app/)
+Experience the app live: [RideBuff Car Wash App](https://ridebuff-car-wash.netlify.app/)
 
 ## Overview
 RideBuff offers a hassle-free solution for on-site car washing services, enabling users to book a professional wash at their convenience—be it at home, the office, or any preferred location. With a straightforward sign-up process and easy-to-use interface, users can schedule a wash, manage their car and payment details, and enjoy a clean car without any stress.
@@ -38,7 +38,14 @@ RideBuff aims to provide a seamless and efficient platform for booking car wash 
 - **React**: Responsive and dynamic UI.
 
 ### Backend
-- **Spring Boot**: Backend services with embedded Tomcat for HTTP requests.
+- **Spring Boot**: For building robust backend services.
+- **Spring Security**: Ensures secure authentication and authorization.
+- **JWT (JSON Web Token)**: For secure and stateless user authentication.
+- **Spring Cloud Gateway**: Handles routing and API gateway functions.
+- **Spring MVC**: For creating RESTful web services and web applications.
+- **Java**: Core programming language for backend services.
+- **Microservices Architecture**: For scalable and maintainable service-oriented architecture.
+- **REST API**: For communication between frontend and backend services.
 - **Databases**: Persistent storage using MySQL and MongoDB.
 - **RazorPay**: Integrated for secure payments.
 
