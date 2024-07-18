@@ -1,72 +1,46 @@
-# Car Wash - A Car washing service app
-## Live Link -- [Car Wash App](https://on-demand-car-wash-app.netlify.app/)
+# Car Wash - A Car washing Management service app
 
-Car Wash delivers a seamless solution for on-site car washing services, allowing users to book a professional car wash at their chosen location—whether it's home, the office, or any other place. By simply signing up and providing car and address details, users can have their car washed without any hassle.
+## Live Link
+Experience the app live: [Car Wash App](https://on-demand-car-wash-app.netlify.app/)
+
+## Overview
+Car Wash offers a convenient solution for scheduling on-site car washing services. Users can book a professional car wash at any location they choose, such as their home or office, with an easy sign-up process and intuitive interface.
 
 ## Problem Statement
-
-**Car Wash** aims to provide an efficient and user-friendly platform where customers can book car washing services at their convenience. The application allows users to:
-- Sign up and log in
-- Add car and payment details
-- Select and book wash packages
-- Make payments through RazorPay
-- View transaction history
-- Receive payment receipts
-- Provide reviews and ratings
-- Manage their profile and order history
-
-For car washers, the application provides:
-- Login functionality
-- Wash assignment by admin
-- Profile management
-- Viewing current and past orders
-
-The admin panel enables:
-- User management (customers and washers)
-- Car management
-- Service plan management
-- Order management
-
-## Features
+Car Wash aims to provide a seamless and efficient platform for booking car wash services. The application includes:
 
 ### For Customers:
-- **Sign Up/Login**: Users can register and log in using their email. Password reset functionality is available.
-- **Car & Payment Details**: Users can add their car details and payment information.
-- **Wash Now**: Users can book a car wash by selecting a wash package.
-- **Payment**: Payments can be made using debit/credit cards through RazorPay.
-- **Transaction History**: Users can view and export their transaction history.
-- **Receipt**: Users receive a downloadable payment receipt after the car wash.
-- **Reviews & Ratings**: Users can rate and review washers.
-- **Profile**: Users can view and edit their profile information.
-- **My Orders**: Users can view current, past, and cancelled orders and export order details.
+- **Account Management**: Register, log in, and reset passwords via email.
+- **Car & Payment Details**: Add and manage car and payment information.
+- **Booking**: Choose and book car wash packages.
+- **Payments**: Secure transactions through RazorPay.
+- **Transaction History**: Access and export transaction history.
+- **Receipts**: Downloadable payment receipts.
+- **Reviews & Ratings**: Submit reviews and ratings for car washers.
+- **Profile Management**: Edit personal profile details.
+- **Order History**: View and export current, past, and cancelled orders.
 
 ### For Car Washers:
-- **Login**: Washers can log in and reset their password.
-- **Wash Assign**: Admin assigns washes to washers. Washers can also self-assign work.
-- **Profile**: Washers can update their profile information.
-- **My Orders**: Washers can view current and past orders.
+- **Login**: Secure login and password reset.
+- **Wash Assignments**: Admin-assigned or self-assigned washes.
+- **Profile Management**: Update personal details.
+- **Order Management**: View current and past orders.
 
 ### Admin Panel:
-- **User Management**: Manage customers and washers, view ratings, and export reports.
-- **Car Management**: Add and edit car details.
-- **Service Plan Management**: Add and edit service plans.
-- **Order Management**: View and assign orders, manage order status.
+- **User Management**: Manage customers and washers, monitor ratings, and export reports.
+- **Car Management**: Add and update car details.
+- **Service Plan Management**: Create and edit service plans.
+- **Order Management**: Manage and assign orders.
 
 ## Tech Stack
 
 ### Frontend
-- **React**: The UI is built using React, providing a responsive and dynamic user interface.
+- **React**: Responsive and dynamic UI.
 
 ### Backend
-- **Spring Boot**: The backend services are implemented using Spring Boot, which includes an embedded Tomcat server for handling HTTP requests.
-- **Databases**: Persistent data is stored using MySQL and MongoDB databases.
-- **RazorPay**: Integrated for handling payments.
-
-### Microservices
-- Each microservice exposes REST/JSON endpoints for business capabilities.
-- Business functions are implemented using the Spring(Boot) framework.
-- Best practices such as exception handling and test cases are implemented.
-- Microservices use embedded Tomcat server as the HTTP listener.
+- **Spring Boot**: Backend services with embedded Tomcat for HTTP requests.
+- **Databases**: Persistent storage using MySQL and MongoDB.
+- **RazorPay**: Integrated for secure payments.
 
 ### Microservices Architecture
 - **Admin Service**: Port 8081
@@ -81,9 +55,9 @@ The admin panel enables:
 - **Service Registry (Eureka)**: Port 8761
 
 ### API Gateway
-All microservices are accessed through the API Gateway, which acts as a single entry point to the system. The actual endpoints of the microservices are not exposed directly; instead, all communication is routed through the API Gateway on port 9002.
+All microservices are accessed through the API Gateway on port 9002, ensuring a secure and unified entry point.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+
 ## Note
-The backend and frontend code for this application is private to ensure security and maintain data integrity. Only the deployed application is visible to users.
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+The backend and frontend code for this application are private to ensure security and data integrity. Only the deployed application is visible to users.
