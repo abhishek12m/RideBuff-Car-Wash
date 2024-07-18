@@ -4,7 +4,7 @@
 Experience the app live: [Car Wash App](https://on-demand-car-wash-app.netlify.app/)
 
 ## Overview
-Car Wash offers a convenient solution for scheduling on-site car washing services. Users can book a professional car wash at any location they choose, such as their home or office, with an easy sign-up process and intuitive interface.
+Car Wash offers a hassle-free solution for on-site car washing services, enabling users to book a professional wash at their convenience—be it at home, the office, or any preferred location. With a straightforward sign-up process and easy-to-use interface, users can schedule a wash, manage their car and payment details, and enjoy a clean car without any stress.
 
 ## Problem Statement
 Car Wash aims to provide a seamless and efficient platform for booking car wash services. The application includes:
