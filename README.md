@@ -1,7 +1,7 @@
 # RideBuff - A Car washing Management service app
 
 ## Live Link
-Experience the app live: [Car Wash App](https://on-demand-car-wash-app.netlify.app/)
+Experience the app live: [Car Wash App](https://ridebuff-car-wash.netlify.app/)
 
 ## Overview
 RideBuff offers a hassle-free solution for on-site car washing services, enabling users to book a professional wash at their convenience—be it at home, the office, or any preferred location. With a straightforward sign-up process and easy-to-use interface, users can schedule a wash, manage their car and payment details, and enjoy a clean car without any stress.
