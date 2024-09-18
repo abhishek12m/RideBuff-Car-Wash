@@ -1,4 +1,4 @@
-# RideBuff: On-Demand Car Wash Services Made Easy
+# RideBuff: Car Wash Services Made Easy
 
 **Experience RideBuff Live**: [RideBuff Car Wash App](https://ridebuff-car-wash.netlify.app/)
 
