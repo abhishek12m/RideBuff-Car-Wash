@@ -1,6 +1,6 @@
 # RideBuff: Car Wash Services Made Easy
 
-**Experience RideBuff Live**: [RideBuff](https://ridebuff-car-wash.netlify.app/)
+**Experience RideBuff Live**: [RideBuff-car-wash](https://ridebuff-car-wash.netlify.app/)
 
 ---
 
