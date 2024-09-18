@@ -1,8 +1,5 @@
 # RideBuff: On-Demand Car Wash Services Made Easy
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://ridebuff-car-wash.netlify.app/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 **Experience RideBuff Live**: [RideBuff Car Wash App](https://ridebuff-car-wash.netlify.app/)
 
 ---
@@ -88,7 +85,3 @@ The **API Gateway** (Port 9002) securely routes all service requests, providing 
 Both the backend and frontend code are securely stored to maintain data integrity, ensuring a safe and reliable user experience. Check out the live demo [here](https://ridebuff-car-wash.netlify.app/).
 
 ---
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
